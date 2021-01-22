@@ -11,7 +11,7 @@ build:
     image_template: mariadb_master-10.4
 
 deploy:
-    context: gokulesh007/dev
+    context: gokulesh007/DEV
     type: statefulset
     replicas: 1
     port:
